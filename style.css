@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+
+#conteiner {
+    background: url(./imagfund.png);
+    padding-bottom: 100px;
+}
+
+.logo-net {
+    height: 25px;
+}
+
+
+
+.button-enter {
+    background: #e50914;
+
+    font-size: 10px;
+    padding: 8px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+}
+.button-enter:hover{
+    opacity: 0.6;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 50px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+
+
+}
+
+.paragr-um {
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.paragr-dois {
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.box-two {
+    padding: 10px;
+}
+
+input {
+    width: 500px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+#botao-email {
+    width: 250px;
+    background-color: #e50914;
+    border: 0;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#botao-email:hover{
+    opacity: 0.6;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    height: 70px;
+}
+
+.rodape {
+    background: rgba(0, 0, 0, 0.964);
+    padding: 70px 0;
+    border-top: 4px solid #171616;
+  
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#botao-pergunta {
+    width: 600px;
+    background-color: #171616;
+    height: 50px;
+    border: 0;
+    font-size: 20px;
+    text-align: left;
+    padding: 0 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#img-pergunta {
+    float: right;
+    margin: 5px;
+    transform: rotate(45deg);
+}
+#img-pergunta-girar{
+    float: right;
+    margin: 5px;
+    transform: rotate(90deg);
+}
+
+#pergunta {
+    width: 600px;
+    background-color: #171616;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    padding: 20px;
+    font-size: 20px;
+    display: none;
+   
+}
